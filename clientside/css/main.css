@@ -1,0 +1,618 @@
+﻿/* -----------------------------------------------------------------------
+
+	fustos.com - main.css
+	* Copyright (c) 2011. Roland Balogh
+   
+----------------------------------------------------------------------- */
+
+/********** Font families **********/
+* {
+/*    display: block;*/
+}
+@font-face {
+    font-family: 'DINNextLTProBold';
+    src: url('type/dinnextltpro-bold-webfont.eot');
+    src: url('type/dinnextltpro-bold-webfont.eot?#iefix') format('eot'),
+         url('type/dinnextltpro-bold-webfont.woff') format('woff'),
+         url('type/dinnextltpro-bold-webfont.ttf') format('truetype'),
+         url('type/dinnextltpro-bold-webfont.svg#webfontsQ73GsRo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINNextLTProLight';
+    src: url('type/dinnextltpro-light-webfont.eot');
+    src: url('type/dinnextltpro-light-webfont.eot?#iefix') format('eot'),
+         url('type/dinnextltpro-light-webfont.woff') format('woff'),
+         url('type/dinnextltpro-light-webfont.ttf') format('truetype'),
+         url('type/dinnextltpro-light-webfont.svg#webfontUXgOZB1l') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINNextLTProRegular';
+    src: url('type/dinnextltpro-regular-webfont.eot');
+    src: url('type/dinnextltpro-regular-webfont.eot?#iefix') format('eot'),
+         url('type/dinnextltpro-regular-webfont.woff') format('woff'),
+         url('type/dinnextltpro-regular-webfont.ttf') format('truetype'),
+         url('type/dinnextltpro-regular-webfont.svg#webfontEccwFCkx') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINNextLTProUltraLight';
+    src: url('type/dinnextltpro-ultralight-webfont.eot');
+    src: url('type/dinnextltpro-ultralight-webfont.eot?#iefix') format('eot'),
+         url('type/dinnextltpro-ultralight-webfont.woff') format('woff'),
+         url('type/dinnextltpro-ultralight-webfont.ttf') format('truetype'),
+         url('type/dinnextltpro-ultralight-webfont.svg#webfontMjrGC5vb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/********** Texts **********/
+
+body {
+	font-family: 'DINNextLTProRegular', 'Arial', Sans-serif;
+	font-size: 14px;
+	color: #ccc;
+	font-weight: normal;
+	overflow-x: hidden;
+}
+
+p					{ margin: 0 0 20px 0; font-size: 14px; }
+p span				{ color: #C3FF05; }
+.cv_content .blue	{ color: #C3FF05; }
+a					{ color: #C3FF05; text-decoration: none; cursor: pointer; }
+a:hover				{ color: #C3FF05; text-decoration: underline; }
+img					{ border: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 20px 0;
+	font-weight: normal;
+}
+
+h1 {
+	margin: 30px 0px 0px 0px;
+	font-size: 30px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-family: 'DINNextLTProLight', 'Arial', Sans-serif;
+	font-size: 13px;
+	color: #424242;
+	letter-spacing: 2px;
+}
+
+h3 {
+	margin: 0 0 20px 0;
+	font-size: 14px;
+	color: #C3FF05;
+}
+
+h4 {
+	margin: 0 0 10px 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+ul {
+	margin: 0;
+	padding: 0 0 0 35px;
+	list-style: none;
+}
+
+	ul li {
+		margin: 0 0 20px 0;
+	}
+	
+.clf { clear: both; }
+.margin_bottom { margin-bottom: 20px; }
+
+/********** Structure **********/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+	
+	#ie-alert {
+		display: none;
+	}
+	
+	.ie-window #ie-alert {
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 240px;
+		height: 120px;
+		margin: -91px 0 0 -151px;
+		padding: 30px;
+		border: 1px solid #eee;
+		background: #fafafa;
+	}
+
+	.ie-window #wrapper {
+		display: none;
+	}
+
+	#wrapper {
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		height: 600%;
+	}
+	
+		#container {
+			position: absolute;
+			clear: both;
+			width: 20000px;
+			height: 100%;
+		}
+	
+			#container .lang {
+				float: left;
+				position: relative;
+				width: 1440px;
+				height: 100%;
+			}
+	
+		.menuitem {
+			position: relative;
+			width: 100%;
+			height: 16%;
+		}
+		
+			.container {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 990px;
+				height: 572px;
+				margin: -302px 0 0 -495px;
+				padding: 32px 0 0 0;
+			}
+			
+			.min-size .container {
+				height: 422px;
+				margin: -227px 0 0 -495px;
+			}
+			
+				.header {
+					position: absolute;
+					top: 0;
+					left: 50%;
+					width: 900px;
+					height: 30px;
+					margin: 0 0 0 -450px;
+					border-bottom: 2px solid #dbdbdb;
+				}
+				
+					.header h1 {
+						float: left;
+						margin: 0;
+						font-family: 'DINNextLTProBold', 'Arial', Sans-serif;
+						font-size: 24px;
+						color: #000;
+					}
+					
+						.header h1 a:hover { color: #C3FF05; text-decoration: none; }
+						
+					.nav {
+						float: right;
+						height: 30px;
+					}
+						
+						.nav ul {
+							margin: 0;
+							padding: 0;
+							list-style: none;
+						}
+						
+							.nav ul li {
+								float: left;
+								margin: 0;
+								padding: 0;
+							}
+							
+							.nav ul li:first-child {
+								margin: 0;
+							}
+							
+								.nav ul li a {
+									display: block;
+									height: 30px;
+									padding: 0 5px;
+									line-height: 30px;
+									font-family: 'DINNextLTProRegular', 'Arial', Sans-serif;
+									font-weight:bold;
+									font-size: 16px;
+									color: #C3FF05;
+									overflow: hidden;
+								}
+								
+/*								.nav ul li a:hover {
+									height: 62px;
+									-moz-border-radius: 3px;
+									-webkit-border-radius: 3px;
+									border-radius: 3px;
+									background: #C3FF05;
+									text-decoration: none;
+									color: #fff;
+								}
+*/								
+									.nav ul li p {
+										display: block;
+										margin: 0;
+									}
+								
+									.nav ul li a span {
+										display: none;
+										border-top: 2px solid #44ccfe;
+									}
+									
+									.nav ul li a:hover span {
+										display: block;
+										height: 30px;
+										margin: 0 -5px;
+										padding: 0 5px;
+										line-height: 30px;
+										font-size: 14px;
+										color: #ddffff;
+									}
+								
+				a.browse {
+					float: left;
+					z-index: 1000;
+					display: block;
+					width: 35px;
+					height: 180px;
+					margin: 180px 0 0 0;
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					border-radius: 3px;
+					line-height: 180px;
+					font-family: 'DINNextLTProRegular', 'Arial', Sans-serif;
+					font-size: 16px;
+					color: #C3FF05;
+					cursor: pointer !important;
+				}
+				
+				.min-size a.browse {
+					margin-top: 105px;
+				}
+				
+				a.browse:hover { color: #fff; text-decoration: none; }
+				
+				a.prev {
+					padding: 0 0 0 45px;
+					background: #fff url(../images/arrows.png) 2px 0 no-repeat;
+				}
+				
+				a.prev:hover { background: #C3FF05 url(../images/arrows.png) 2px -180px no-repeat; }
+				
+				a.next {
+					padding: 0 45px 0 0;
+					text-align: right;
+					background: #fff url(../images/arrows.png) 35px -360px no-repeat;
+				}
+				
+				a.next:hover { background: #C3FF05 url(../images/arrows.png) 35px -540px no-repeat; }
+					
+				.content {
+					float: left;
+					width: 780px; 
+					height: 540px;
+					padding: 0 0 0 50px;
+				}
+				
+				.min-size .content {
+					height: 390px;
+				}
+					
+				.footer {
+					position: absolute;
+					clear: both;
+					bottom: 0;
+					left: 50%;
+					width: 900px;
+					height: 30px;
+					margin: 0 0 0 -450px;
+					border-top: 2px solid #dbdbdb;
+				}
+				
+					ul.langs {
+						position: absolute;
+						top: 12px;
+						left: 0;
+						margin: 0;
+						padding: 0;
+						list-style: none;
+						z-index: 5;
+					}
+					
+						ul.langs li {
+							float: left;
+							width: 26px;
+							padding: 0 !important;
+							height: 18px;
+							line-height: 18px;
+							text-align: center;
+							font-family: 'DINNextLTProBold', 'Arial', Sans-serif;
+							font-size: 10px;
+							color: #C3FF05;
+						}
+						
+						ul.langs li.last {
+							width: 20px;
+							height: 18px;
+						}
+						
+						ul.langs li.active {
+							-moz-border-radius: 3px;
+							-webkit-border-radius: 3px;
+							border-radius: 3px;
+							padding: 3px;
+							color: #fff;
+							background: #C3FF05;
+						}
+						
+					ul.navi {
+						position: absolute;
+						top: 12px;
+						left: 0;
+						margin: 0;
+						padding: 0;
+						list-style: none;
+						z-index: 10;
+					}
+					
+						ul.navi a {
+							float: left;
+							display: none;
+							width: 26px;
+							height: 18px;
+						}
+						
+						ul.navi a.last {
+							width: 20px;
+							height: 18px;
+						}
+						
+/********** Scroll - vertical **********/
+
+.vertical-scroll				{ width: 750px; clear: both; }
+.vertical-scroll .viewport		{ width: 715px; height: 450px; overflow: hidden; position: relative; }
+.min-size .vertical-scroll .viewport { height: 250px; }
+.vertical-scroll .overview		{ list-style: none; position: absolute; left: 0; top: 0; }
+.vertical-scroll .thumb .end,
+.vertical-scroll .thumb			{ background-color: #C3FF05; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.vertical-scroll .scrollbar		{ position: relative; float: right; width: 9px; }
+.vertical-scroll .track			{ background: url(../images/vertical-scroll.png) top center repeat-y; height: 100%; width:9px; position: relative; }
+.vertical-scroll .thumb			{ height: 20px; width: 9px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+.vertical-scroll .thumb .end	{ overflow: hidden; height: 5px; width: 9px; }
+.vertical-scroll .disable		{ display: none; }
+
+/********** Scroll - horizontal **********/
+
+.horizontal-scroll				{ width: 730px; clear: both; }
+.horizontal-scroll .viewport	{ width: 730px; height: 330px; overflow: hidden; position: relative; }
+.min-size .horizontal-scroll .viewport { height: 180px; }
+.horizontal-scroll .overview	{ list-style: none; width: 5000px; padding: 0; margin: 0; position: absolute; left: 0; top: 0; }
+.horizontal-scroll .thumb .end,
+.horizontal-scroll .thumb		{ background-color: #C3FF05; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.horizontal-scroll .scrollbar	{ position: relative; clear: both; height: 7px; }
+.horizontal-scroll .track		{ background: url(../images/horizontal-scroll.png) left center repeat-x; width: 100%; height: 7px; position: relative; }
+.horizontal-scroll .thumb		{ height: 7px; cursor: pointer; overflow: hidden; position: absolute; left: 0; top: 0; }
+.horizontal-scroll .thumb .end	{ overflow: hidden; height: 9px; width: 5px;}
+.horizontal-scroll .disable		{ display: none; }
+					
+/********** Home **********/
+
+.slogen {
+	margin: 100px 100px 0 50px;
+	text-align: justify;
+	font-family: 'DINNextLTProUltraLight', 'Arial', Sans-serif;
+	font-size: 26px;
+	color: #999;
+}
+	
+	.slogen span {
+		display: block;
+		margin: 50px 0 0 0;
+		text-align: right;
+		font-family: 'DINNextLTProBold', 'Arial', Sans-serif;
+		font-size: 18px;
+		color: #C3FF05;
+	}
+
+	.slogen .blue	{ color: #C3FF05; }
+
+/********** CV **********/
+
+.cv_content h2, .cv_content h3, .cv_content p { position: relative; width: 650px; }
+.cv_content .viewport li { position: relative; width: 615px; }
+.cv_content .viewport li p { position: relative; width: 615px !important; margin: 0; }
+
+	.cv_content * span {
+		position: absolute;
+		top: 0;
+		right: 0;
+		display: block;
+		width: 110px;
+		text-align: right;
+		font-family: 'DINNextLTProLight', 'Arial', Sans-serif;
+		font-size: 14px;
+		color: #999;
+		letter-spacing: 0;
+	}
+
+.cv_content h1 { float: left; }
+.cv_content h3 { margin: 0; }
+.cv_content strong { font-weight: normal; color: #424242; }
+.cv_content strong a { color: #424242; }
+.cv_content p a { color: #999; }
+
+.button {
+	float: right;
+	display: inline-block;
+	height: 30px;
+	margin: 35px 0 0 10px;
+	padding: 6px 10px 0 35px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background: #c3c3c3 url(../images/acrobat.png) 5px center no-repeat;
+	text-shadow: 0 1px 0 #e8e8e8;
+	font-family: 'DINNextLTProBold', 'Arial', Sans-serif;
+	font-size: 10px;
+	color: #6d6d6d;
+	
+	-webkit-transition-property: color,background;
+	-webkit-transition-duration: 1s, 0.5s;
+	-webkit-transition-timing-function: ease-out, ease-out;
+	-moz-transition-property: color,background;
+	-moz-transition-duration: 1s, 0.5s;
+	-moz-transition-timing-function: ease-out, ease-out;
+	-o-transition-property: color,background;
+	-o-transition-duration: 1s, 0.5s;
+	-o-transition-timing-function: ease-out, ease-out;
+	transition-property: color,background;
+	transition-duration: 1s, 0.5s;
+	transition-timing-function: ease-out, ease-out;
+}
+
+.button:hover {
+	background: #9a9a9a url(../images/acrobat.png) 5px center no-repeat;
+	text-decoration: none;
+	text-shadow: none;
+	color: #fff;
+}
+
+/********** Behind the CV **********/
+
+#hu_cv_mogott_scroll p, #en_cv_mogott_scroll p, #esp_cv_mogott_scroll p {
+	width: 715px;
+	text-align: justify;
+}
+
+/********** Gallery **********/
+
+.folio {
+    float: left;
+    display: inline;
+    margin: 0 30px 0 30px;
+}
+
+    .folio span {
+    	display: inline-block;
+    	margin: 0 auto;
+    	padding: 4px;
+    	-moz-border-radius: 3px;
+    	-webkit-border-radius: 3px;
+    	border-radius: 3px;
+    	background: #ddd;
+    	
+    	-webkit-transition: background 0.5s ease-out;
+    	-moz-transition: background 0.5s ease-out;
+		-o-transition: background 0.5s ease-out;
+		transition: background 0.5s ease-out;
+    }
+    
+    .folio span:hover {
+    	background: #C3FF05;
+    }
+
+    	.folio img {
+    		display: block;
+    		border: 1px solid #fff;
+    	}
+
+		.min-size .folio img {
+			height: 100px;
+		}
+    	
+    .folio p {
+    	display: block;
+    	margin: 20px 0 0 0;
+    	text-align: center;
+		font-weight: normal; 
+		color: #999;
+    }
+
+	.min-size .folio p {
+		text-align: left;
+	}    
+
+    .folio a:hover {
+    	text-decoration: none !important;
+    }
+    
+    .folio p:hover {
+		text-decoration: underline;
+    }
+
+/********** Contact **********/
+
+#kapcsolat h4, #contact h4, #contacto h4 {
+	margin-top: 130px !important;
+}
+
+.contact_lines {
+	width: 715px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+	.contact_lines li {
+		clear: both;
+		display: block;
+		height: 30px;
+		margin: 0;
+		border-bottom: 1px solid #dadada;
+		line-height: 30px;
+	}
+	
+		.contact_lines .left {
+			float: left;
+			display: block;
+			width: 200px;
+		}
+		
+		.contact_lines .right {
+			float: left;
+			display: block;
+			width: 515px;
+		}
+		
+			.contact_lines .right img {
+				margin-top: 4px;
+			}
+			
+			.linkedin {
+				float: left;
+				display: block;
+				margin-top: 4px;
+				margin-right: 10px;
+			}
+
+.min-size .slogen {
+	margin: 20px 100px 0 50px;
+	font-size: 26px;
+}
+	
+	.min-size .slogen span {
+		margin: 20px 0 0 0;
+		font-size: 18px;
+	}
