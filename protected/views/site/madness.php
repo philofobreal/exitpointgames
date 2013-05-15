@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu">
 	<head>
-		<title>exitpoint</title>
+		<title>ExitPoint</title>
 		
 		<META name="viewport" content="width=device-width , initial-scale=0.6, maximum-scale=0.6; user-scalable=no" />
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -185,6 +185,10 @@
 					.facebook_btn:hover {
 						background:url(<?php echo Yii::app()->baseUrl; ?>/images/sprite.png) -90px -39px no-repeat;
 					}
+					#esp-wrapper, #hu-wrapper {
+						visibility:hidden;
+					}
+
                 </style>
 	</head>
 	<body>
@@ -412,8 +416,8 @@ rendszerből.</br>
 													<li>
 												<p>
 Mindenben megegyezik a hagyományos foglalással, azzal a
-különbséggel, hogy nem kell már utalnotok, hanem az aktiválási kódot
-az info@exitpoint.hu mail címre kell elküldeni, VOUCHER tárggyal.
+különbséggel, hogy nem kell már utalnotok, hanem az foglalási kódot
+az info@exitpointgames.hu mail címre kell elküldeni, VOUCHER tárggyal.
 </br>
 												</p>
 													</li>
@@ -427,7 +431,7 @@ az info@exitpoint.hu mail címre kell elküldeni, VOUCHER tárggyal.
 												<p>
 72 órával az időpont előtt még van lehetőségetek lemondani és
 módosítani az időpontot. Kérjük ezt jelezzétek emailben az
-info@exitpoint.hu mail címen vagy telefonon. Amennyiben a foglalt és
+info@exitpointgames.hu mail címen vagy telefonon. Amennyiben a foglalt és
 kifizetett időpontban nem jelentek meg, úgy utólag már nem áll
 módunkban másik időpontot biztosítani helyette.
 </br>
@@ -443,7 +447,7 @@ módunkban másik időpontot biztosítani helyette.
 												<p>
 Ha ajándékba szeretnétek minket adni, arra is van lehetőség. Vouchert
 vásárolhattok, amit az ajándékozott 1 éven beül bármikor
-felhasználhat, bármelyik pályánkon. Vásárlási igényeteket az info@exitpoint.hu -n vagy telefonon jelezhetitek.
+felhasználhat, bármelyik pályánkon. Vásárlási igényeteket az info@exitpointgames.hu -n vagy telefonon jelezhetitek.
 </br>
 												</p>
 													</li>
@@ -709,7 +713,7 @@ szórakozásáról.
 									</li>
 									<li>
 										<span class="left">Email:</span>
-										<span class="right"><a href="mailto:info@exitpoint.hu">info@exitpoint.hu</a></span>
+										<span class="right"><a href="mailto:info@exitpointgames.hu">info@exitpointgames.hu</a></span>
 									</li>
 									<li>
 										<span class="left">Facebook:</span>
@@ -764,12 +768,12 @@ szórakozásáról.
 													</li>
 													<li>
 												<p>
-												<a href="http://tv2.hu/musoraink/aktiv/4120_karsai_zita_remiszto_pincebol_szabadult.html" title="Kapcsolat"><p>Karsai Zita rémisztő pincéből szabadult - TV2 Aktív</p></a>
+												<a href="http://tv2.hu/musoraink/aktiv/4120_karsai_zita_remiszto_pincebol_szabadult.html" title="Kapcsolat" target="_blank"><p>Karsai Zita rémisztő pincéből szabadult - TV2 Aktív</p></a>
 												</p>
 												</li>
 
 												<p>
-												<a href="http://atv.hu/videotar/20120913_kulonleges_szorakozas_a_kalvin_teren" title="Kapcsolat"><p>Különleges szórakozás a Kálvin téren - ATV Start Plusz</p></a>
+												<a href="http://atv.hu/videotar/20120913_kulonleges_szorakozas_a_kalvin_teren" title="Kapcsolat" target="_blank"><p>Különleges szórakozás a Kálvin téren - ATV Start Plusz</p></a>
 												</p>
 													</li>
 													<li>
@@ -780,32 +784,37 @@ szórakozásáról.
 													</li>
 													<li>
 												<p>
-												<a href="http://hvg.hu/divat_design/20120905_Bezartak_minket_a_Kalvin_ter_ala_es_nem_j" title="Kapcsolat"><p>Bezártak minket a Kálvin tér alá és nem jutottunk ki – hvg.hu</p></a>
+												<a href="http://hvg.hu/divat_design/20120905_Bezartak_minket_a_Kalvin_ter_ala_es_nem_j" title="Kapcsolat" target="_blank" target="_blank"><p>Bezártak minket a Kálvin tér alá és nem jutottunk ki – hvg.hu</p></a>
 												</p>
 													</li>
 													<li>
 												<p>
-												<a href="http://horrormirror.blog.hu/2012/10/08/exitpoint_elmenybeszamolo_nyeremenyjatek" title="Kapcsolat"><p>ExitPoint élménybeszámoló – HorrorMirror blog</p></a>
+												<a href="http://horrormirror.blog.hu/2012/10/08/exitpoint_elmenybeszamolo_nyeremenyjatek" title="Kapcsolat" target="_blank"><p>ExitPoint élménybeszámoló – HorrorMirror blog</p></a>
 												</p>
 													</li>
 													<li>
 												<p>
-												<a href="http://www.gamekapocs.hu/cooltura/416/exitpoint_bemutato" title="Kapcsolat"><p>ExitPoint bemutató - Gamekapocs</p></a>
+												<a href="http://www.gamekapocs.hu/cooltura/416/exitpoint_bemutato" title="Kapcsolat" target="_blank"><p>ExitPoint bemutató - Gamekapocs</p></a>
 												</p>
 													</li>
 													<li>
 												<p>
-												<a href="http://egyevazeletembol.blogspot.hu/2012/09/kiprobaltuk-exit-point.html" title="Kapcsolat"><p>Kipróbáltuk: ExitPoint – Egy év az életemből blog</p></a>
+												<a href="http://egyevazeletembol.blogspot.hu/2012/09/kiprobaltuk-exit-point.html" title="Kapcsolat" target="_blank"><p>Kipróbáltuk: ExitPoint – Egy év az életemből blog</p></a>
 												</p>
 													</li>
 													<li>
 												<p>
-												<a href="http://www.darkplant.hu/120925-Exit_Point_Budapest.asp" title="Kapcsolat"><p>Egy óra múlva kint vagyok (... vagy nem) – Darkplant</p></a>
+												<a href="http://www.darkplant.hu/120925-Exit_Point_Budapest.asp" title="Kapcsolat" target="_blank"><p>Egy óra múlva kint vagyok (... vagy nem) – Darkplant</p></a>
 												</p>
 													</li>
 													<li>
 												<p>
-												<a href="http://soulofthecity.hu/index.php/szubjektiv/szubjektiv/424-szabadulomuveszet-1-a-pszichiatriai-osztaly-rejtelye" title="Kapcsolat"><p>Szabadulóművészet 1. - A pszichiátriai osztály rejtélye - Soul of the City</p></a>
+												<a href="http://soulofthecity.hu/index.php/szubjektiv/szubjektiv/424-szabadulomuveszet-1-a-pszichiatriai-osztaly-rejtelye" title="Kapcsolat" target="_blank"><p>Szabadulóművészet 1. - A pszichiátriai osztály rejtélye - Soul of the City</p></a>
+												</p>
+													</li>
+													<li>
+												<p>
+												<a href="http://talesfromtheblog.blog.hu/2013/05/11/torj_ki_a_zart_osztalyrol" title="Kapcsolat" target="_blank"><p>Törj ki a zárt osztályról! - Tales from the blog</p></a>
 												</p>
 													</li>
 													<li>

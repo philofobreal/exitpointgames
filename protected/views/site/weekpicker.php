@@ -603,7 +603,7 @@ $(document).ready(function(e) {
 	window.inputMask = function(){
 //		$.mask.definitions['~']='[06]';
 //		$("#BillingInformations_payer_name").mask("99/99/9999");
-		$("#BillingInformations_payer_phone").mask("99999999999",{placeholder:" _"});
+//		$("#BillingInformations_payer_phone").mask("99999999999",{placeholder:" _"});
 		$("#BillingInformations_payer_zipcode").mask("9999",{placeholder:" _"});
 //		$("#BillingInformations_payer_city").mask("99/99/9999");
 //		$("#BillingInformations_payer_street").mask("99/99/9999");
